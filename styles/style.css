@@ -61,11 +61,11 @@ html {
 }
 
 .footer{
+    height: 100px;
+    width: 100%;
     position: absolute;
     bottom:0;
     left:0;
-    height: 100px;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,8 +94,7 @@ html {
     width: 300px;
   }
   .footer{
-      justify-content: flex-end;
-      
+      justify-content: flex-end;   
   }
   .copy{
     margin: 0 30px 0 0;
