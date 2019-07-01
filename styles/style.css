@@ -1,0 +1,18 @@
+.header{
+    position:fixed;
+    width: 100%;
+    display:flex; 
+
+}
+.main{
+    height: 100vh; 
+    text-align: center;
+    position: relative;
+
+
+}
+.text{
+    position: absolute; 
+    top: 50%;
+    left: 50%; 
+}
