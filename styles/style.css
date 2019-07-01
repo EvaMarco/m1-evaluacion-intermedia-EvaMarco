@@ -50,7 +50,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 89vh;
   background-color: #3cdbc0;
 }
 
@@ -58,6 +58,15 @@ html {
   color: #ffffff;
   font-size: 1.875rem;
   width: 150px;
+}
+
+.footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4a4a4a;
+    color: #ffffff;
 }
 
 /* Media */
@@ -79,5 +88,12 @@ html {
   .text {
     font-size: 2.5rem;
     width: 300px;
+  }
+  .footer{
+      justify-content: flex-end;
+      
+  }
+  .copy{
+    margin: 0 30px 0 0;
   }
 }
