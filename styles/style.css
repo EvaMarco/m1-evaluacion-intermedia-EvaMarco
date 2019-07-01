@@ -50,7 +50,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 89vh;
+  height: 100vh;
   background-color: #3cdbc0;
 }
 
@@ -61,7 +61,11 @@ html {
 }
 
 .footer{
+    position: absolute;
+    bottom:0;
+    left:0;
     height: 100px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
