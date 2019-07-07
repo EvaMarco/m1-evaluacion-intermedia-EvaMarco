@@ -52,6 +52,7 @@ html {
   align-items: center;
   height: 100vh;
   background-color: #3cdbc0;
+  overflow: auto;
 }
 
 .text {
@@ -63,7 +64,7 @@ html {
 .footer{
     height: 100px;
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom:0;
     left:0;
     display: flex;
